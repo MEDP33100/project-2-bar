@@ -1,8 +1,28 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
+  padding: 20px;
 }
 
-a {
-  color: #00B7FF;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+#controls {
+    margin-bottom: 10px;
+}
+
+#controls button, #controls input{
+    margin-right: 5px;
 }
