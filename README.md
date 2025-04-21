@@ -5,7 +5,7 @@
 
 ## **Link to Live Page**
 
-_Include a link to the live version of the project hosted on Glitch._
+[Glitch Link](https://jealous-befitting-broker.glitch.me/)
 
 ## **Project Overview**
 
