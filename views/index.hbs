@@ -1,5 +1,9 @@
-<h1>the office quotes</h1>
+<div class="chart">
+    <button id="toggleChart" class="chart-btn">View Chart</button>
+</div>
 
+<div class="main"></div>
+<h1>the office quotes</h1>
 <div id="controls">
     <button class="filter-btn" data-character="">All</button>
     <button class="filter-btn" data-character="Michael Scott">Michael</button>
@@ -14,12 +18,16 @@
     <button class="filter-btn" data-character="Andy Bernard">Andy</button>
 </div>
 
+<canvas id="quoteChart"></canvas>
+
 <table id="quoteTable">
     <thead>
         <tr>
             <th>Character</th>
             <th>Quote</th>
+            <th></th>
         </tr>
     </thead>
     <tbody id="quoteTableBody"></tbody>
 </table>
+</div>
