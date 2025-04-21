@@ -5,7 +5,7 @@
 
 ## **Link to Live Page**
 
-[Glitch Link](https://jealous-befitting-broker.glitch.me/)
+[Glitch Link]()
 
 ## **Project Overview**
 
@@ -20,6 +20,7 @@ This project compiles popular quotes from popular characters on the American tel
 - Express for server-side setup
 - Handlebars
 - Node.js
+- Chart.js
 - [The Office Quotes API](https://officeapi.akashrajpurohit.com)
 - Glitch
 
