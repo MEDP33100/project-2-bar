@@ -13,6 +13,8 @@ This project compiles popular quotes from popular characters on the American tel
 
 ## **Features**
 
+Some features used throughout the project include a sortation method for all quotes alphabetically and quotes from specific characters with their designated button to showcase.
+
 
 ## **Technologies Used**
 
@@ -26,6 +28,7 @@ This project compiles popular quotes from popular characters on the American tel
 ## **Future Enhancements**
 
 - I would include the episode titles and air dates with each quote.
+- Another future enhancement that can be added would be specific themes based on which character is picked to showcase the differences between them
 
 ## **Credits**
 - [The Office Quotes API](https://officeapi.akashrajpurohit.com)
