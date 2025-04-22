@@ -5,11 +5,11 @@
 
 ## **Link to Live Page**
 
-[Glitch]()
+[Glitch](https://trusting-glowing-salmon.glitch.me/)
 
 ## **Project Overview**
 
-This project compiles popular quotes from popular characters on the American television show The Office. The project uses data from a pre-existing API and categorizes quotes by character. Users are also able to see a breakdown of the data in the form of a pie chart and...
+This project compiles popular quotes from popular characters on the American television show The Office. The project uses data from a pre-existing API and categorizes quotes by character. Users are also able to see a breakdown of the data in the form of a pie chart, search for quotes using keywords and sort from A-Z and Z-A. 
 
 ## **Features**
 
