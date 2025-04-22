@@ -76,3 +76,19 @@ img {
   right: 50px;
   z-index: 10;
 }
+
+th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+th.sortable:hover {
+  background-color: #f0f0f0;
+}
+th.sortable.sort-asc::after {
+  content: ' \25B2'; /* Up arrow */
+  font-size: 0.8em;
+}
+th.sortable.sort-desc::after {
+  content: ' \25BC'; /* Down arrow */
+  font-size: 0.8em;
+}

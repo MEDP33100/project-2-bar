@@ -1,35 +1,30 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/SwTV4Aya)
 # MEDP 33100 Project 2: Data Visualization
 ## **Project Members**
-- Anika Rahman
-- Bryan Iturbide
+
+_List the people a part of this group._
 
 ## **Link to Live Page**
 
-[Glitch Link]()
+_Include a link to the live version of the project hosted on Glitch._
 
 ## **Project Overview**
 
-This project compiles popular quotes from popular characters on the American television show The Office. The project uses data from a pre-exisiting API and categorizes quotes by character and sorts them from featured, A-Z and Z-A.
+_Briefly describe the concept of your project._
 
 ## **Features**
 
+_List the key features of the project (the three distinct types of user interactions)._
 
 ## **Technologies Used**
 
-- HTML, CSS, JavaScript 
-- Express for server-side setup
-- Handlebars
-- Node.js
-- Chart.js
-- [The Office Quotes API](https://officeapi.akashrajpurohit.com)
-- Glitch
+_List the technologies and tools used in the project (ie. APIs, libraries, frameworks, etc.)._
 
 ## **Future Enhancements**
 
-- I'd like to include a search feature for finding quotes using keywords. 
-- I would include the episode titles and air dates with each quote.
+_List any future enhancements you would like to make or improve given more time._
 
 ## **Credits**
-- [The Office Quotes API](https://officeapi.akashrajpurohit.com)
-- [American Typewriter Font](https://github.com/tuzz/themakingcollective.com/blob/master/app/assets/fonts/american-typewriter.ttf)
-- Images Sourced from The Office
+
+_List any third-party assets used in the project (e.g., sound effects, images, fonts) and provide proper attribution. Acknowledge any resources, tutorials, or references you used to help complete the project._
+
