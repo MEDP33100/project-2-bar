@@ -63,10 +63,10 @@ img {
 
 #quoteChart {
   display: none;
-  margin-top: 40px;
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 32px auto;
+  max-width: 400px;
+  width: 100%;
+  height: 300px;
 }
 
 .chart {
@@ -80,15 +80,61 @@ img {
 th.sortable {
   cursor: pointer;
   user-select: none;
+  white-space: nowrap;
+  position: relative;
+  vertical-align: middle;
 }
+
 th.sortable:hover {
   background-color: #f0f0f0;
 }
+
 th.sortable.sort-asc::after {
-  content: ' \25B2'; /* Up arrow */
+  content: ' \25B2';
+  left: 4px;
+  /* Up arrow */
   font-size: 0.8em;
 }
+
 th.sortable.sort-desc::after {
-  content: ' \25BC'; /* Down arrow */
+  content: ' \25BC';
+  left: 4px;
+  /* Down arrow */
   font-size: 0.8em;
+}
+
+.search-chart-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+#searchInput {
+  padding: 6px 12px;
+  font-size: 14px;
+  flex-grow: 1;
+  min-width: 240px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'American Typewriter', sans-serif;
+}
+
+.chart-btn {
+  background-color: #f8f8f8;
+  border: 2px dashed #ccc;
+  color: #333;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-family: 'American Typewriter', sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.chart-btn:hover {
+  background-color: #e0e0e0;
+  color: black;
 }
