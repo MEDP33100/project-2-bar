@@ -5,7 +5,7 @@
 
 ## **Link to Live Page**
 
-_Include a link to the live version of the project hosted on Glitch._
+[Glitch]()
 
 ## **Project Overview**
 
@@ -25,7 +25,6 @@ This project compiles popular quotes from popular characters on the American tel
 
 ## **Future Enhancements**
 
-- I'd like to include a search feature for finding quotes using keywords. 
 - I would include the episode titles and air dates with each quote.
 
 ## **Credits**
