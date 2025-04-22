@@ -28,6 +28,7 @@ Some features used throughout the project include a sortation method for all quo
 
 - We would like to include the episode titles and air dates for each quote.
 - Another future enhancement that can be added would be specific themes based on which character is picked to showcase the differences between them
+- Find a way to optimize how the quotes are being rendered as there is a slight loading delay upon entering the website for the first time. 
 
 ## **Credits**
 - [The Office Quotes API](https://officeapi.akashrajpurohit.com)
