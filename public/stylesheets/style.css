@@ -1,8 +1,140 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', sans-serif;
+  font-weight: 400;
+  background-color: white;
+  color: black;
+  padding: 32px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-a {
-  color: #00B7FF;
+h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+#controls {
+  text-align: center;
+  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+button {
+  font-family: 'American Typewriter', sans-serif;
+  padding: 8px 16px;
+  background-color: rgb(237, 237, 237);
+  color: #222;
+  border: 1px solid #d6d6d6;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: rgb(170, 170, 170);
+  color: black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: 600;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid lightgray;
+  font-weight: 300;
+}
+
+img {
+  border-radius: 8px;
+  height: 72px;
+  vertical-align: middle;
+}
+
+#quoteChart {
+  display: none;
+  margin: 32px auto;
+  max-width: 400px;
+  width: 100%;
+  height: 300px;
+}
+
+.chart {
+  font-family: 'American Typewriter', sans-serif;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  z-index: 10;
+}
+
+th.sortable {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  position: relative;
+  vertical-align: middle;
+}
+
+th.sortable:hover {
+  background-color: #f0f0f0;
+}
+
+th.sortable.sort-asc::after {
+  content: ' \25B2';
+  left: 4px;
+  /* Up arrow */
+  font-size: 0.8em;
+}
+
+th.sortable.sort-desc::after {
+  content: ' \25BC';
+  left: 4px;
+  /* Down arrow */
+  font-size: 0.8em;
+}
+
+.search-chart-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+#searchInput {
+  padding: 6px 12px;
+  font-size: 14px;
+  flex-grow: 1;
+  min-width: 240px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'American Typewriter', sans-serif;
+}
+
+.chart-btn {
+  background-color: #f8f8f8;
+  border: 2px dashed #ccc;
+  color: #333;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-family: 'American Typewriter', sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.chart-btn:hover {
+  background-color: #e0e0e0;
+  color: black;
 }
