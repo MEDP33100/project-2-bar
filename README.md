@@ -15,7 +15,6 @@ This project compiles popular quotes from popular characters on the American tel
 
 Some features used throughout the project include a sortation method for all quotes alphabetically and quotes from specific characters with their designated button to showcase.
 
-
 ## **Technologies Used**
 
 - HTML, CSS, JavaScript 
@@ -27,7 +26,7 @@ Some features used throughout the project include a sortation method for all quo
 
 ## **Future Enhancements**
 
-- I would include the episode titles and air dates with each quote.
+- We would like to include the episode titles and air dates for each quote.
 - Another future enhancement that can be added would be specific themes based on which character is picked to showcase the differences between them
 
 ## **Credits**
