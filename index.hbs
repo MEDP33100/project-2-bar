@@ -1,0 +1,46 @@
+<div class="main"> <h1>The Office Quotes</h1>
+
+    <div class="controls-area" style="margin-bottom: 15px;">
+        <div>
+            <input type="text" id="searchInput" placeholder="Search quotes or characters..." style="margin-bottom: 10px; padding: 5px; min-width: 250px;">
+        </div>
+
+        <div id="controls">
+             <button class="filter-btn active" data-character="">All</button> <button class="filter-btn" data-character="Michael Scott">Michael</button>
+             <button class="filter-btn" data-character="Dwight Schrute">Dwight</button>
+             <button class="filter-btn" data-character="Jim Halpert">Jim</button>
+             <button class="filter-btn" data-character="Pam Beesly">Pam</button>
+             <button class="filter-btn" data-character="Angela Martin">Angela</button>
+             <button class="filter-btn" data-character="Stanley Hudson">Stanley</button>
+             <button class="filter-btn" data-character="Kelly Kapoor">Kelly</button>
+             <button class="filter-btn" data-character="Creed Bratton">Creed</button>
+             <button class="filter-btn" data-character="Kevin Malone">Kevin</button>
+             <button class="filter-btn" data-character="Andy Bernard">Andy</button>
+             </div>
+
+        <div class="chart-toggle" style="margin-top: 10px;">
+            <button id="toggleChart" class="chart-btn">View Chart</button>
+        </div>
+    </div>
+
+    <canvas id="quoteChart" style="display: none; max-width: 600px; margin: 15px auto;"></canvas>
+
+    <div id="loadingIndicator" style="display: none; margin: 20px; text-align: center;">
+        Loading quotes...
+    </div>
+
+    <table id="quoteTable">
+        <thead>
+            <tr>
+                <th class="sortable" data-sort-key="character">Character</th>
+                <th class="sortable" data-sort-key="quote">Quote</th>
+                <th>Image</th> </tr>
+        </thead>
+        <tbody id="quoteTableBody">
+            </tbody>
+    </table>
+
+    <div id="paginationControls" style="margin-top: 15px; text-align: center;">
+        </div>
+
+</div> ```
